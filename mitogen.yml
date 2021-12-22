@@ -2,7 +2,7 @@
 - name: Check ansible version
   import_playbook: ansible_version.yml
 
-- hosts: localhost
+- hosts: local
   strategy: linear
   vars:
     mitogen_version: 0.2.9
